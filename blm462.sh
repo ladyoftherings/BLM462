@@ -19,7 +19,7 @@ do
        	read -r input
        	case $input in
 		0)
-			echo -e "Çıkmak istediniz."
+			echo -e "Çıkmak istediniz.\n"
 			exit 1
 			;;
 		SYN)
