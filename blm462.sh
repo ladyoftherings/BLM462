@@ -11,17 +11,12 @@ if [[ $EUID -ne 0 ]]; then
        exit 1
 fi
 
-if [ ! -f /var/log/tcp.log ]; then
-	$(touch "/var/log/tcp.log")
-	echo -e "/var/log'un altında TCP log'u oluşturuldu.\n"
-fi
-
 echo -e "Programı sonlandırmak için 0'a basınız.\n"
 echo -e "Önlem almak istediğiniz saldırı için anahtarı girin:\n\tSYN : SYN Flood\n\tSL : Slowloris (Slow Header Attack)\n\tR : R.U.D.Y. (Slow Body Attack)\n"
 
 while [[ $input != 0 ]]
 do
-       	read input
+       	read -r input
        	case $input in
 		0)
 			echo -e "Çıkmak istediniz."
