@@ -1,5 +1,5 @@
 #!/bin/bash
-echo -e "\nMerhaba. DDoS'a karşı önlem almak için tasarlanmış blm 462 aracına hoşgeldiniz.\n"
+echo -e "\nMerhaba. Ankara Üniversitesi'nde, DDoS'a karşı önlem almak için tasarlanmış blm 462 aracına hoşgeldiniz.\n"
 echo "    __    __             __ __  ________"
 echo "   / /_  / /___ ___     / // / / ___/__ \ "
 echo "  / __ \/ / __  __ \   / // /_/ __ \__/ /"
